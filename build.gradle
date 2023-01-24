@@ -3,7 +3,7 @@ buildscript {
     ext.kotlin_version = '1.5.21'
     ext.build_gradle_version = '7.2.2'
     ext.current_version_scanner_api = '1.9.+'
-    ext.current_version_app = System.getenv('TRAVIS_BUILD_NUMBER') ?: 1
+    ext.current_version_app = System.getenv('TRAVIS_BUILD_NUMBER') ?: 2
 
     repositories {
         google()
