@@ -6,5 +6,6 @@ package de.proglove.example.sdk
 enum class ServiceConnectionStatus {
     CONNECTING,
     CONNECTED,
+    RECONNECTING,
     DISCONNECTED
 }
