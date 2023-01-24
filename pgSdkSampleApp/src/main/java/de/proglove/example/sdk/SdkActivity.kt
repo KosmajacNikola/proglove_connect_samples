@@ -93,6 +93,7 @@ import java.util.logging.Logger
 /**
  * PG SDK example for a scanner.
  */
+//test push build Bitrise comment
 class SdkActivity : AppCompatActivity(), IScannerOutput, IServiceOutput, IDisplayOutput, IButtonOutput, IPgTriggersUnblockedOutput, IPgScannerConfigurationChangeOutput {
 
     private val logger = Logger.getLogger("sample-logger")
